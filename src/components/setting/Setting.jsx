@@ -7,7 +7,7 @@ function Settings() {
   const [name, setName] = useState('');
   const [showName, setShowName] = useState(false);
   const [logoFile, setLogoFile] = useState(null);
-  const [faviconFile, setFaviconFile] = useState(null);
+  const [faviconFile] = useState(null);
 
   // Fetch settings from the backend
   const fetchSettings = async () => {
